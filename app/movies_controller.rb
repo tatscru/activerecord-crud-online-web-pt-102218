@@ -29,7 +29,7 @@ def can_be_created_in_a_block(args = nil)
   # If no arguments are passed, use default values:
   Movie.create do |m|
     m.title = "The Room"
-    m.release_date = 1990
+    # m.release_date = 1990
   end
 end
 
