@@ -22,7 +22,7 @@ def can_be_created_with_a_hash_of_attributes
   movie = Movie.create(attributes)
 end
 
-def can_be_created_in_a_block(arg)
+def can_be_created_in_a_block(arg = nil )
   Movie.create do |m|
     title = "Home Alone"
     release_date = 1990
