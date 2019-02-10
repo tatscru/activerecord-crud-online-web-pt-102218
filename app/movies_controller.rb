@@ -25,7 +25,7 @@ def can_be_created_with_a_hash_of_attributes
   movie
 end
 
-def can_be_created_in_a_block
+def can_be_created_in_a_block(args = nil)
   # If no arguments are passed, use default values:
   Movie.create do |m|
     m.title = "Home Alone"
