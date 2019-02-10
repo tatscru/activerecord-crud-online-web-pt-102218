@@ -13,9 +13,9 @@ end
 
 def can_be_created_with_a_hash_of_attributes
   attributes = {
-      title: "The Sting",
-      release_date: 1973,
-      director: "George Roy Hill",
+      # title: "The Sting",
+      # release_date: 1973,
+      # director: "George Roy Hill",
       lead: "Paul Newman",
       in_theaters: false
   }
