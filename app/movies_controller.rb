@@ -25,8 +25,8 @@ end
 def can_be_created_in_a_block()
   # Movie. can_be_created_with_a_hash_of_attributes
   Movie.create_or_find_by do |m|
-    title = "Home Alone"
-    release_date = 1990
+    m.title = "Home Alone"
+    m.release_date = 1990
   end
 end
 
